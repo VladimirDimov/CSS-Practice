@@ -1,0 +1,30 @@
+﻿header, aside, footer, body {
+    padding:0;
+    border-spacing: 0;
+}
+
+header {
+    background-color: green;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top:0;
+}
+
+aside {
+    position: absolute;
+    background-color: pink;
+    position: absolute;
+    float: left;
+    width: 20%;
+    top: 100px;
+    bottom:100px;
+}
+
+footer{
+    position: absolute;
+    background-color: brown;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+}

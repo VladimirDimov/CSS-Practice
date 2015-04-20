@@ -1,0 +1,29 @@
+﻿header, footer, aside{
+    position: absolute;    
+}
+body {
+    padding:0;
+    border-spacing:0;
+    margin: 0 10px 0 80px;    
+}
+header{
+    top:0;
+    background-color:green;
+    height:20%;
+    width:100%;
+}
+
+aside{
+    background-color:yellow;
+    float:left;
+    width:20%;
+    top:20%;
+    bottom:20%;
+}
+
+footer{
+    background-color: brown;
+    bottom:0;
+    width:100%;
+    height: 20%;
+}
