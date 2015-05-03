@@ -1,0 +1,102 @@
+.valign {
+    position: relative;
+    top: 50%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2px;
+}
+
+#wrapper {
+    width: 960px;
+
+
+
+    header {
+        position: relative;
+        padding: 20px;
+        border: 1px solid;
+        background-image: url('images/header-bg.png');
+        color: rgb(238,255,238);
+        border-bottom: 5px solid rgb(57,197,24);
+
+        #title {
+            position: relative;
+            display: block;
+            float: left;
+
+            h1 {
+                position: relative;
+                display: block;
+                font-size: 34px;
+            }
+
+            h2 {
+                color: rgb(192,192,192);
+                font-weight: 500;
+            }
+        }
+
+        nav {
+            position: relative;
+            display: inline-block;
+            float: right;
+            top: 25px;
+
+            li {
+                display: inline-block;
+                padding: 0 0 0 15px;
+                color: rgb(204,102,26);
+                font-weight: 600;
+                font-size: 18px;
+            }
+        }
+    }
+
+    #content {
+        float: left;
+        position: relative;
+        width: 770px;
+
+        > h1 {
+            font-size: 30px;
+            padding: 20px 0 20px 0;
+            color: rgb(89,119,14);
+        }
+
+        article {
+            p {
+                padding: 0 0 10px 0;
+            }
+        }
+    }
+
+    #aside {
+        float: right;
+        font-size: 14px;
+        width: 190px;
+        padding: 20px 0 20px 0;
+        text-transform: uppercase;
+        color: rgb(89,119,14);
+        font-weight: 600;
+
+        hr{
+            margin:5px 0 10px 0;            
+        }
+
+        form{
+
+        }
+    }
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,81 @@
+﻿.valign {
+  position: relative;
+  top: 50%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2px;
+}
+#wrapper {
+  width: 960px;
+}
+#wrapper header {
+  position: relative;
+  padding: 20px;
+  border: 1px solid;
+  background-image: url('images/header-bg.png');
+  color: #eeffee;
+  border-bottom: 5px solid #39c518;
+}
+#wrapper header #title {
+  position: relative;
+  display: block;
+  float: left;
+}
+#wrapper header #title h1 {
+  position: relative;
+  display: block;
+  font-size: 34px;
+}
+#wrapper header #title h2 {
+  color: #c0c0c0;
+  font-weight: 500;
+}
+#wrapper header nav {
+  position: relative;
+  display: inline-block;
+  float: right;
+  top: 25px;
+}
+#wrapper header nav li {
+  display: inline-block;
+  padding: 0 0 0 15px;
+  color: #cc661a;
+  font-weight: 600;
+  font-size: 18px;
+}
+#wrapper #content {
+  float: left;
+  position: relative;
+  width: 770px;
+}
+#wrapper #content > h1 {
+  font-size: 30px;
+  padding: 20px 0 20px 0;
+  color: #59770e;
+}
+#wrapper #content article p {
+  padding: 0 0 10px 0;
+}
+#wrapper #aside {
+  float: right;
+  font-size: 14px;
+  width: 190px;
+  padding: 20px 0 20px 0;
+  text-transform: uppercase;
+  color: #59770e;
+  font-weight: 600;
+}
+#wrapper #aside hr {
+  margin: 5px 0 10px 0;
+}
+.clear {
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */
