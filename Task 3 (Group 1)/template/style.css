@@ -1,0 +1,85 @@
+﻿* {
+  font-family: Arial;
+  font-size: 16px;
+  padding: 0;
+  color: #2aa0bd;
+}
+.set-background {
+  background: linear-gradient(to bottom, #4ae871, #f1ffbc);
+}
+body {
+  font-size: 18px;
+  font-family: Arial;
+}
+#root {
+  position: relative;
+  width: 400px;
+  height: 420px;
+  border: 1px solid;
+  padding: 0 5px 0 5px;
+}
+#root > h1 {
+  font-size: 18px;
+  text-align: center;
+}
+#root .chat-container {
+  background: linear-gradient(to bottom, #4ae871, #f1ffbc);
+  position: relative;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  width: 49%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-sizing: padding-box;
+  padding: 0 5px 0 5px;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+#root .chat-container .chat-container:first-child {
+  float: left;
+}
+#root .chat-container .chat-container:last-child {
+  float: right;
+}
+#root .chat-container > h2 {
+  text-align: center;
+}
+#root .me,
+#root .other {
+  display: block;
+}
+#root .me > strong,
+#root .other > strong {
+  display: block;
+  font-style: italic;
+  font-size: 0.8em;
+}
+#root .me > span,
+#root .other > span {
+  display: block;
+  border-bottom: 1px solid #000000;
+}
+#root .other {
+  text-align: right;
+}
+#root .sent-message {
+  position: absolute;
+  bottom: 0;
+}
+#root .sent-message input {
+  display: inline-block;
+  width: 125px;
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  padding: 3px;
+}
+#root .sent-message button {
+  border: 1px solid #cccccc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: transparent;
+  padding: 3px;
+}
+/*# sourceMappingURL=style.css.map */
