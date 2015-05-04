@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Corbel;
+}
+
+body {
+    font-size: 14px;
+    font-family: Corbel;
+}
+
+    body #root {
+        position: relative;
+        top: 50px;
+        width: 250px;
+        border-top: 2px double;
+        border-left: 2px solid;
+        -webkit-border-top-left-radius: 10px;
+        border-top-left-radius: 10px;
+        margin: auto;
+        padding: 20px;
+    }
+
+body #root > h1 {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.widget {
+    width: 250px;
+    position: relative;
+    border: 1px solid black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #CBF7BE, #E5D96E 60%);
+}
+
+label {
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+}
+
+    label:nth-of-type(1), label:nth-of-type(2) {
+        margin-left: 20px;
+    }
+
+    label:nth-of-type(3), label:nth-of-type(4) {
+        margin-left: 40px;
+        display: inline-block;
+        width: 40px;
+    }
+
+input {
+    margin: 5px;
+    padding: 2px 5px 2px 15px;
+    border: 3px inset #86A37D;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    width: 130px;
+}
+
+    .dropdown::before {
+        content: "\25BC";
+    }
+
+    .dropdown:hover ul, ul:hover {
+        display: block;
+    }
+
+    .dropdown:hover::before {
+        content: "\25BA";
+    }
+
+    .dropdown > ul {
+        position: absolute;
+        top: 0;
+        left: 120px;
+        border: 1px solid black;
+        width: 150px;
+        text-align: center;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        padding: 0 5px 0 5px;
+        display: none;
+        background: linear-gradient(to bottom, #CBF7BE, #E5D96E 40%);
+    }
+
+        .dropdown > ul li {
+            padding: 5px;
+            white-space: nowrap;
+            border-bottom: 1px solid;
+        }
+
+            .dropdown > ul li:hover {
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: 3px inset #86A37D;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+    button:hover {
+        background: linear-gradient(to bottom, #CBF7BE, #E5D96E 40%);
+    }
