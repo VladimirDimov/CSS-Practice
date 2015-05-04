@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+body{
+    width:70%;
+    margin: auto;
+    position: relative;
+}
+
+#root{
+    position: relative;
+    height: 100%;
+    background-color: #808080;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    display: inline-block;
+}
+
+header{
+    background-color: #ffd800;
+    width: 100%;
+}
+
+#left{
+    position: relative;
+    display: inline-block;
+    float: left;
+    background-color: #f00;
+    width: 20%;
+    top:0;
+    height: 300px;
+}
+
+#right{
+    position: absolute;
+    display: inline-block;
+    float: right;
+    right: 0;
+    background-color: #00ff21;
+    width: 20%;
+    height: 300px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+footer{
+    position: relative;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff6a00;
+}
+
+p{
+    display: inline;
+}
