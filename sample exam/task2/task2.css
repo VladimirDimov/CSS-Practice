@@ -1,0 +1,68 @@
+﻿html,
+body,
+div,
+p,
+a,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+}
+.invisible {
+  display: none;
+}
+.current {
+  font-weight: bold;
+}
+body #wrapper {
+  width: 960px;
+  padding-left: 50px;
+}
+body #wrapper form {
+  width: 450px;
+  background: linear-gradient(to bottom, #fbfbfb 20%, #595959);
+}
+body #wrapper form fieldset {
+  border: 5px solid #000;
+  border-radius: 5px;
+  text-align: right;
+}
+body #wrapper form fieldset legend {
+  text-align: left;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-left: 65px;
+  font-style: italic;
+  padding: 0 10px;
+}
+body #wrapper form fieldset input {
+  margin-right: 70px;
+}
+body #wrapper form fieldset input {
+  padding: 10px 15px;
+  border-radius: 15px;
+  width: 150px;
+  border: none;
+  margin: 5px 60px 5px 0;
+  background: linear-gradient(to bottom, #020202, #b9b9b9);
+}
+body #wrapper form fieldset label {
+  font-weight: bold;
+}
+body #wrapper form fieldset button {
+  background: linear-gradient(to bottom, #020202, #b9b9b9);
+  padding: 5px 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-right: 60px;
+}
+body #wrapper > a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #000;
+}
+/*# sourceMappingURL=task2.css.map */

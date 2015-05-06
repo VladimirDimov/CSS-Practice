@@ -1,0 +1,93 @@
+@border-style: 2px solid rgb(153,153,153);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Times New Roman';
+}
+
+#root {
+    width: 700px;
+
+    div#previewer {
+
+        div#large {
+            display: inline-block;
+            float: left;
+            border: @border-style;
+            padding: 10px;
+
+            h1 {
+                text-align: center;
+                padding: 10px 0 20px 0;
+                font-size: 24px;
+            }
+
+            img {
+                border-radius: 5px;
+                border: @border-style;
+            }
+        }
+
+        div#list {
+            border: @border-style;
+            text-align: center;
+            position: relative;
+            float: left;
+            width: 200px;
+            height: 371px;
+
+            .title {
+                display: block;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            > button {
+                padding: 10px 20px 10px 20px;
+                width: 90px;
+                font-size: 16px;
+                border-radius: 5px;
+                border: @border-style;
+                background-color: rgb(204,204,204);
+
+                &:hover{
+                    background-color: rgb(230,230,230);
+                }
+            }
+
+            ul {
+                overflow-y: scroll;
+                display: block;
+                height: 295px;
+                width: 100%;
+                padding: 5px;
+                position:absolute;
+
+                li {
+                    display: block;
+                    border: 1px solid red;
+
+                    strong {
+                        display: block;
+                        margin: 5px 0 10px 0;
+
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+
+                    &:focus{
+                        background-color:red;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+  font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+  font-size: 16px;
+}
+img {
+  display: none;
+  width: 100%;
+  margin-top: 10px;
+}
+#wrapper {
+  padding: 5px;
+}
+#wrapper ul.menu > li {
+  position: relative;
+  display: block;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  background-color: #b4fe1e;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+#wrapper ul.menu > li:hover .content {
+  display: block;
+}
+#wrapper ul.menu > li > a {
+  color: #005604;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Constantina;
+  font-size: 16px;
+}
+#wrapper ul.menu > li > a:hover {
+  text-decoration: underline;
+}
+#wrapper ul.menu > li:hover > a {
+  text-decoration: underline;
+}
+#wrapper ul.menu > li div.content {
+  position: absolute;
+  top: 0;
+  left: 170px;
+  display: none;
+  /*switch*/
+  width: 200px;
+}
+#wrapper ul.menu > li div.content ul {
+  list-style-type: none;
+}
+#wrapper ul.menu > li div.content ul li {
+  text-align: left;
+  border-radius: 15px;
+  background-color: #007f09;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 500px;
+}
+#wrapper ul.menu > li div.content ul li:hover > a {
+  text-decoration: underline;
+}
+#wrapper ul.menu > li div.content ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#wrapper ul.menu > li div.content ul li a:hover {
+  text-decoration: underline;
+}
+#wrapper ul.menu > li div.content ul li a:hover + img {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
