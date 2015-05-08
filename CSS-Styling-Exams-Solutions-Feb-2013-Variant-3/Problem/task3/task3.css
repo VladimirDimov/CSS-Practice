@@ -1,1 +1,83 @@
-﻿
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif;
+}
+#wrapper {
+  width: 960px;
+}
+#wrapper form {
+  border: 1px solid #000;
+  margin: 25px;
+  padding: 15px;
+  width: 380px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  color: #FFFFF4;
+  background: linear-gradient(to bottom, #eafe5b 0%, #444444 100%);
+  text-align: right;
+  font-size: 0.8em;
+}
+#wrapper form fieldset {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 3px solid #555555;
+  text-align: right;
+  padding: 5px 15px;
+}
+#wrapper form fieldset:last-of-type {
+  margin-bottom: 10px;
+}
+#wrapper form fieldset legend {
+  font-size: 1.15em;
+  font-style: italic;
+  font-weight: bold;
+  padding: 0 15px;
+  margin-right: 100px;
+  display: block;
+}
+#wrapper form fieldset label {
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+#wrapper form fieldset input {
+  width: 150px;
+  border: 2px solid #444444;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 15px;
+  font-size: 0.75em;
+  background: linear-gradient(to bottom, #e8fc5b 0%, #444444 100%);
+}
+#wrapper form fieldset input[type=number] {
+  width: 15px;
+}
+#wrapper form input[type=radio] {
+  display: none;
+}
+#wrapper form input[type=radio]:checked + label {
+  font-weight: bold;
+}
+#wrapper form button,
+#wrapper form input[type=reset] {
+  padding: 5px 10px;
+  background: linear-gradient(to bottom, #e8fc5b 0%, #444444 100%);
+  border: 1px solid black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 1.5em;
+  font-family: serif;
+}
+#wrapper form button:hover,
+#wrapper form input[type=reset]:hover {
+  background: none;
+  background-color: #F1FF8E;
+}
