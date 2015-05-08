@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+    border-spacing: 0;
+}
+
+div#wrapper {
+    width: 960px;
+    padding: 20px;
+
+    > div {
+        display: inline-block;
+        float: left;
+        width: 140px;
+        padding: 10px 4px 0 4px;
+
+        &:nth-child(even) {
+            border: 2px solid #D2D6D9;
+            height: 270px;
+        }
+
+        &:nth-child(odd) {
+            height: 250px;
+            border-top: 2px solid #D2D6D9;
+            border-bottom: 2px solid #D2D6D9;
+        }
+
+        &:first-child {
+            border-left: 2px solid #D2D6D9;
+        }
+
+        &:nth-child(1) {
+            hgroup {
+                background: url(imgs/install.png) left bottom no-repeat;
+            }
+        }
+
+        &:nth-child(2) {
+            hgroup {
+                background: url(imgs/install.png) left bottom no-repeat;
+            }
+        }
+
+        &:nth-child(3) {
+            hgroup {
+                background: url(imgs/install.png) left bottom no-repeat;
+            }
+        }
+
+        &:nth-child(4) {
+            hgroup {
+                background: url(imgs/install.png) left bottom no-repeat;
+            }
+        }
+
+        &:nth-child(5) {
+            hgroup {
+                background: url(imgs/install.png) left bottom no-repeat;
+            }
+
+            .yellowBox{
+                margin-top: 0;
+                border: 1px solid #FEFE1F;
+                background-color: #FEFFDD;
+
+                a{
+                    display: inline;
+                }
+            }
+        }
+
+        &:nth-child(6) {
+            hgroup {
+                background: url(imgs/install.png) left bottom no-repeat;
+            }
+        }
+
+
+
+        hgroup {
+            display: table-cell;
+            vertical-align: bottom;
+            height: 35px;
+
+            h3, h2 {
+                margin-left: 40px;
+            }
+        }
+
+        p {
+            font-size:1em;
+            display: inline-block;
+            text-align: left;
+            margin-top: 20px;
+            font-stretch: narrower;
+        }
+
+        > div {
+            margin-top: 10px;
+
+            a {
+                display: block;
+                color: #D02D2E;
+                text-decoration: none;
+
+                span {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
