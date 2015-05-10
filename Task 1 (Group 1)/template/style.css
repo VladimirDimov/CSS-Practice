@@ -1,4 +1,8 @@
-﻿* {
+﻿.valign {
+  top: 50%;
+  transform: translateY(-50%);
+}
+* {
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -6,67 +10,58 @@
 html,
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 0 5px 0 5px;
-}
-#wrapper {
-  width: 960px;
-  margin: 0 auto;
 }
 .clear {
   clear: both;
 }
-header {
-  height: 50px;
+#wrapper {
+  width: 960px;
+  padding-left: 5px;
+}
+#wrapper header {
   background: url(images/header-bg.png);
+  width: 960px;
+  height: 50px;
 }
-header h1 {
-  position: relative;
+#wrapper header h1 {
   float: left;
-  top: 50%;
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-left: 20px;
+  text-transform: uppercase;
+  margin: 15px;
 }
-header nav {
-  position: relative;
-  display: inline-block;
+#wrapper header nav#nav {
   float: right;
-  top: 50%;
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  margin-right: 15px;
 }
-header nav li {
+#wrapper header nav#nav ul {
+  list-style-type: none;
+}
+#wrapper header nav#nav ul li {
   display: inline-block;
-  padding: 0 10px 0 10px;
-  float: right;
+  font-size: 14px;
+  margin: 15px 10px;
 }
-#searchBar {
-  display: block;
-  background-color: black;
-  padding: 10px 10px 10px 0;
+#wrapper div#searchBar {
+  background: #000;
+  color: #ffffff;
+  padding: 8px 10px;
 }
-#searchBar a {
-  color: white;
+#wrapper div#searchBar a {
   text-decoration: none;
+  font-size: 14px;
+  color: #C5C5C5;
 }
-#searchBar #archives {
-  display: inline-block;
+#wrapper div#searchBar div#archives {
+  float: left;
 }
-#searchBar #search {
-  display: inline-block;
+#wrapper div#searchBar div#search {
   float: right;
 }
-#content h1 {
-  font-size: 1.5em;
-  padding: 20px 0 20px 0;
+#wrapper div#content h1 {
+  font-size: 24px;
+  margin: 15px 0;
 }
-#content article p {
-  padding-bottom: 10px;
+#wrapper div#content article p {
+  font-size: 14px;
+  margin: 10px 0;
 }
 /*# sourceMappingURL=style.css.map */

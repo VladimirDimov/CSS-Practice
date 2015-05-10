@@ -1,1 +1,68 @@
-﻿
+﻿* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+}
+div#wrapper {
+  width: 960px;
+  padding: 50px;
+}
+div#wrapper ul.accordion {
+  width: 400px;
+}
+div#wrapper ul.accordion > li {
+  border: 1px solid #000;
+  text-align: center;
+  background: linear-gradient(to bottom, #eeeeee, #aaaaaa);
+}
+div#wrapper ul.accordion > li a {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #444444;
+}
+div#wrapper ul.accordion > li div.accordion-content {
+  display: none;
+  text-align: left;
+  padding: 10px 15px 5px;
+}
+div#wrapper ul.accordion > li div.accordion-content h1 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+div#wrapper ul.accordion > li div.accordion-content p {
+  text-align: justify;
+}
+div#wrapper ul.accordion > li div.accordion-content table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+div#wrapper ul.accordion > li div.accordion-content table th,
+div#wrapper ul.accordion > li div.accordion-content table td {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #000;
+  text-align: center;
+}
+div#wrapper ul.accordion > li div.accordion-content table td {
+  color: #FFFFFF;
+}
+div#wrapper ul.accordion > li div.accordion-content table tr:nth-child(2n+1) {
+  background: linear-gradient(to bottom, #eeeeee, #aaaaaa);
+}
+div#wrapper ul.accordion > li div.accordion-content table tr:nth-child(2n+2) {
+  background: linear-gradient(to top, #eeeeee, #aaaaaa);
+}
+div#wrapper ul.accordion > li.current div.accordion-content {
+  display: block;
+  /*swich*/
+}
+/*# sourceMappingURL=task1.css.map */

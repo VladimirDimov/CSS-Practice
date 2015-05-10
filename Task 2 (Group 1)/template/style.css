@@ -1,117 +1,70 @@
 ﻿* {
-  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
-  font-size: 16px;
   padding: 0;
   margin: 0;
+  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+  font-size: 16px;
 }
-.main-background {
-  /* IE10 Consumer Preview */
-  background-image: -ms-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* Opera */
-  background-image: -o-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2ed4ef), color-stop(1, #7598e1));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* W3C Markup, IE10 Release Preview */
-  background-image: linear-gradient(to bottom, #2ed4ef 0%, #7598e1 100%);
-}
-.sub-background {
-  /* IE10 Consumer Preview */
-  background-image: -ms-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* Opera */
-  background-image: -o-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #58e1c1));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* W3C Markup, IE10 Release Preview */
-  background-image: linear-gradient(to bottom, #ffffff 0%, #58e1c1 100%);
-}
-#wrapper {
-  border: 1px solid;
+div#wrapper {
   width: 960px;
+  padding: 10px 10px;
 }
-#wrapper .menu > li {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
+div#wrapper ul.menu {
+  list-style-type: none;
+}
+div#wrapper ul.menu > li {
   display: inline-block;
   float: left;
-  width: 320px;
-}
-#wrapper .menu > li > a:first-child {
-  /* IE10 Consumer Preview */
-  background-image: -ms-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* Opera */
-  background-image: -o-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2ed4ef), color-stop(1, #7598e1));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(top, #2ed4ef 0%, #7598e1 100%);
-  /* W3C Markup, IE10 Release Preview */
-  background-image: linear-gradient(to bottom, #2ed4ef 0%, #7598e1 100%);
+  margin-right: 10px;
   position: relative;
+}
+div#wrapper ul.menu > li > a {
   display: block;
-  margin: 0 10px 0 10px;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  font-size: 1.3em;
   text-decoration: none;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #25dcf1, #7a95e0);
 }
-#wrapper .menu > li .content:hover {
-  display: block;
-}
-#wrapper .menu > li .content {
-  /* IE10 Consumer Preview */
-  background-image: -ms-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* Opera */
-  background-image: -o-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #58e1c1));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(top, #ffffff 0%, #58e1c1 100%);
-  /* W3C Markup, IE10 Release Preview */
-  background-image: linear-gradient(to bottom, #ffffff 0%, #58e1c1 100%);
+div#wrapper ul.menu > li div.content {
   position: absolute;
   display: none;
-  z-index: 2;
-  left: 40px;
-  border: 1px solid;
+  border: 1px solid #000;
+  top: 35px;
+  left: 20px;
+  padding: 10px;
   border-radius: 10px;
-  list-style-position: inside;
-  padding: 20px 10px 10px 10px;
-  top: 40px;
+  background: linear-gradient(to bottom, #fdffff, #9fd7ee);
+  z-index: 10;
+}
+div#wrapper ul.menu > li div.content h3 {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+div#wrapper ul.menu > li div.content p {
   white-space: nowrap;
 }
-#wrapper .menu > li .content li {
-  display: flex;
-}
-#wrapper .menu > li .content h3 {
-  padding: 10px 0 10px 0;
-  font-size: 1.1em;
-  text-decoration: underline;
-}
-#wrapper .menu > li:hover .content {
-  display: block;
-}
-#wrapper .menu > li:hover a {
-  zoom: 1.3;
-}
-a {
+div#wrapper ul.menu > li div.content p a {
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
+div#wrapper ul.menu > li div.content .bold {
+  font-weight: bold;
+}
+div#wrapper ul.menu > li div.content ul {
+  list-style-type: square;
+}
+div#wrapper ul.menu > li div.content ul li {
+  white-space: nowrap;
+}
+div#wrapper ul.menu > li div.content ul li a {
+  text-decoration: none;
+}
+div#wrapper ul.menu > li:hover > a {
+  font-size: 1.5em;
+  padding: 10px 45px;
+}
+div#wrapper ul.menu > li:hover div.content {
+  display: block;
+  padding: 25px 20px;
 }
 /*# sourceMappingURL=style.css.map */
