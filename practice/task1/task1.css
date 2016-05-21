@@ -1,0 +1,48 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 900px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#de28ff+0,de28ff+15,ec83ff+45,ec84ff+46,e381f6+47,e382f5+47,ec8afe+48,ed8cff+49,f9dbff+75,f9dbff+100 */
+  background: #de28ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #de28ff 0%, #de28ff 15%, #ec83ff 45%, #ec84ff 46%, #e381f6 47%, #e382f5 47%, #ec8afe 48%, #ed8cff 49%, #f9dbff 75%, #f9dbff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #de28ff 0%, #de28ff 15%, #ec83ff 45%, #ec84ff 46%, #e381f6 47%, #e382f5 47%, #ec8afe 48%, #ed8cff 49%, #f9dbff 75%, #f9dbff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #de28ff 0%, #de28ff 15%, #ec83ff 45%, #ec84ff 46%, #e381f6 47%, #e382f5 47%, #ec8afe 48%, #ed8cff 49%, #f9dbff 75%, #f9dbff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#de28ff', endColorstr='#f9dbff', GradientType=0);
+  /* IE6-9 */
+}
+div#wrapper div {
+  padding: 30px;
+}
+div#wrapper div p:first-of-type {
+  border: black solid 1px;
+  border-left: none;
+  border-right: none;
+  margin-left: 10px;
+  width: 400px;
+  padding: 5px;
+}
+div#wrapper div img.left-arrow {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+}
+div#wrapper div img.right-arrow {
+  position: absolute;
+  top: 120px;
+  left: 880px;
+}
+div#wrapper div p.info {
+  margin-top: 30px;
+}
